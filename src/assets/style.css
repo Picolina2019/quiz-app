@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+* {
+  font-family: "Raleway", sans-serif;
+}
+body{
+  margin:0;
+  padding:0;
+  min-height: 100vh;
+  width:100vw;
+  box-sizing: border-box;
+  margin:auto;
+}
+.container {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+}
+.title {
+ 
+  background-color: rgb(22, 22, 22);
+  color: rgb(255, 255, 255);
+  padding: 5px;
+  font-size: 3em;
+  border-radius: 5px;
+  text-align: center;
+  color:rgb(154, 0, 141);
+  font-family:'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+
+.question {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.questionBox {
+  position: relative;
+  text-align: center;;
+  margin-top: 5px;
+  padding: 15px;
+  box-sizing: border-box;
+  background-color: rgb(226, 220, 220);
+}
+
+.answerBtn {
+  position: relative;
+  padding: 10px;
+  background-color: rgb(154, 0, 141);
+  display: inline-block;
+  margin: 10px;
+  outline: none;
+  border: none;
+  font-size: 1em;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.score-board {
+  position: relative;
+  height: 700px;
+}
+
+.score {
+  position: absolute;
+  width: 100vw;
+  height:100vh;
+  font-size: 2.5em;
+  top: 12rem;
+  text-align: center;
+  justify-content: center;
+  margin:auto;
+}
+
+.playBtn {
+  position: absolute;
+  font-size: 1.4em;
+  padding: 10px;
+  top: 350px;
+  background-color: rgb(5, 135, 5);
+  color: rgb(255, 255, 255);
+  width: 150px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  outline: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
